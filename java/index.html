@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yogendra</title>
+    <link rel="stylesheet" href="program.c">
+    <style>
+        #btn{
+            color: aliceblue;
+            background-color: blue;
+            border: 2px solid black;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="cotain">
+    <h1>hello world
+    </h1>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis possimus corporis inventore praesentium. Quisquam, suscipit? Veritatis nam minus dignissimos, quia accusamus illum quidem impedit iure natus atque, dolor rerum, at quis! Ipsam sapiente quasi qui non. Voluptatem officia ea cum deleniti aliquid ipsum excepturi earum? Quae laborum 
+        saepe ad nisi, aspernatur asperiores, vel sunt corporis quasi consequuntur reprehenderit sint voluptas nostrum veritatis odio assumenda nemo.</p>
+
+    
+</div>
+<p id="s">time</p>
+<button id="btn" onclick="show()">show/hide</button>
+        
+</body>
+<script >
+    function show(){
+        let ho=document.getElementById('btn');
+        let sara=document.getElementById('para');
+        if(sara.style.display !='none'){
+            para.style.display='none';
+        }
+        else{
+            para.style.display='block';
+        }
+    }
+    function showtime(){
+      time= new Date();
+    document.getElementById('s').innerHTML= time;
+    }
+    setInterval(showtime,1000);
+</script>
+</html>

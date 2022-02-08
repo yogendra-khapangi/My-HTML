@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my profile</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Iam java script!!!</h1>
+<style>
+	h1{
+		color: red;
+
+	}
+	p{
+		color: red;
+	}
+</style>
+<p><b>converting dollor($) into nepali Rs:</b></p>
+<p>Input amount in dollor($):</p>
+<input type="number" id="yo" required="number">
+<br>
+<br>
+<br>
+<a href="#"><input type="submit" name="number" onclick="cl()"></a>
+
+<hr>
+<p id="ho">result is:</p>
+
+<script type="text/javascript">
+	function cl(){
+		let a=118.08
+		let b=document.getElementById("yo").value;
+		let c=a*b;
+		document.getElementById("ho").innerHTML="Rs: "+c;
+	}
+	
+</script>
+
+
+
+</body>
+</html>

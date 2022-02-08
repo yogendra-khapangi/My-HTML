@@ -1,0 +1,14 @@
+body{
+    background: src('img.jpg');
+    background-color: red;
+}
+#1{
+border: 2px solid black;
+display: absulute;
+}
+#2{
+
+}
+#3{
+
+}

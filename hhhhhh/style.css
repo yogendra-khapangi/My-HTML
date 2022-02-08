@@ -1,0 +1,24 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    padding: 12px;
+    color: wheat;
+    font-size: 34px;
+    /* justify-content: center; */
+    margin: 0px;
+    padding: 38px;
+    margin-left: 81px;
+}
+ul{
+    display: flex;
+    background-color: rgb(80, 76, 76);   
+    justify-content: center; 
+}
+li:hover{
+    background-color: rgb(158, 126, 158);
+    color: black;
+    border-radius: 34px;
+}

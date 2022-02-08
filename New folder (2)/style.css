@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+}
+div.hover{
+background-color: black;
+color: white;
+}
+button{
+	padding: 14px 20px;
+
+}

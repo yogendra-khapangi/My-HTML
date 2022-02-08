@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*css variable*/
+:root{
+    --navbar-hight: 59px;
+}
+body{
+background: url('yogendra.jpeg') no-repeat center center/cover;
+height: 2px;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 30px;
+    display: inline-block;
+color: white;    
+/* border: 2px solid red; */
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 31px auto;
+color: white;
+/* border: 2px solid green; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:23px;
+    display: inline-block;
+color: white;
+/* border: 2px solid yellow; */
+}
+.go{
+display: inline-block;
+
+
+}
+.go li{
+    display: inline-block;
+    font-size: 25px;
+}
+.go li a{
+color: white;
+text-decoration: none;
+padding: 34px 46px;
+text-align: center;
+}
+.go li a:hover, .go li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.left img{
+    height: 107px;
+    width: 112px;
+    filter: invert();
+}
+.left{
+    text-align: center ;
+}
+.btm{
+    font-size:18px;
+    background-color: black;
+    color: white;
+    padding: 16px 39px;
+    margin:15px;
+    border:2px solid cadetblue;
+    border-radius:21px;
+    }
+.btm:hover{
+    background-color: cornsilk;
+    color: cyan;
+    cursor:pointer;
+}
+
+.contain{
+    color: darkgrey;
+      margin: 0px opx opx 45px;
+      padding:151px;
+      padding-left: 592px;
+      display: inline-block;
+      /* display: flex; */
+      font-size: 41px;
+  }
+  /* .container{
+    margin: auto;
+} */
+  .bo{
+    text-align: center;
+    height: 73px;
+    width: 643px;
+    padding: 6px;
+    margin: 16px;
+    display: block;
+    border-radius: 35px;
+    font-size: 36px;
+    outline: none;
+  }
+  .yo{
+      text-align: center;
+   
+  }
+  .ho{
+    font-size: 35px;
+    padding: 9px;
+    border-radius: 23px;
+    width: 287px;
+    color: violet;
+    background-color: blue;
+  }
+  /* #vao{
+      padding: 5px;
+  } */

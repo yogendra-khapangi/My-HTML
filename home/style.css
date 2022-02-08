@@ -1,0 +1,24 @@
+header {
+   color: white;
+   background-color: turquoise;
+   text-align: center;
+   border-color:solid red;
+   border: red;
+}
+#hd{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    texts
+}
+nav{
+ background-color: #92b9ab;
+ color:  white;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #9a9eac;
+}
